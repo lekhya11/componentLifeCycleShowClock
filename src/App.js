@@ -27,7 +27,7 @@ class App extends Component {
         <button
           type="button"
           onClick={this.onToggleClock}
-          className="toggle-button"
+          className="neon-button"
         >
           {showClock ? 'Hide Clock' : 'Show Clock'}
         </button>
